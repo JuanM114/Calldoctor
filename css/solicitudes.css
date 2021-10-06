@@ -1,0 +1,142 @@
+.pad{
+    margin: 10%;
+    margin-top: -4%;
+}
+.hij1{
+    width: 90%;
+    height: 450px;
+    background-color: white;
+}
+
+.hij{
+    margin-top: 9%;
+    width: 90%;
+    height: 90px;
+    background-color: rgb(251, 251, 251);
+    display: flex;
+    justify-content: right;
+}
+.tit{
+    color: white;
+    font-size: 23px;
+    position: relative;
+    left: 13%;top: 13%;
+
+}
+.list{
+    position: relative;
+    top: 16%;
+    left: 38%;
+    margin-bottom: 4%;
+    width: 56%;
+    background-color: rgb(49, 47, 47);
+}
+.doct{
+    margin-top: 6px;
+    margin-left: 5%;
+    height: 80px;
+}
+.list tr th{
+    padding: 1.5%;
+    color: beige;
+    border-bottom: 1px solid green;
+}
+
+.opciones,.boton{
+    font-size: 20px;
+    position: relative;
+    left: 65%;
+    top: 40%;
+    text-decoration: none;
+    color: black;
+}
+.boton{
+    margin-top: 3.5px;
+    margin-left: 7px;
+    cursor: pointer;
+}
+.scrol{
+    width: 100%;
+    height: 86%;
+    overflow: scroll;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.usu{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    bottom: 110px;
+    left: 90px;
+}
+.icon{
+    height: 12px;
+    left: 12px;
+}
+.usuario{
+    margin-top: 9%;
+    margin-left: 10%;
+}
+.boton_personalizado{
+    text-decoration: none;
+    padding-left: 9px; padding-right: 9px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #128663;
+    border-radius: 10px;
+  }
+  .boton_personalizado:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+  }
+
+@media screen  and (max-width:320px) {
+    body{
+        background-color: #70b0cf;
+        margin-left: -9%;
+        margin-top: -3%;
+        height: 900px;
+        padding: 0;
+    }
+    .hij1{
+        height: 80%;
+        width: 65%;
+        background: linear-gradient(to bottom, rgb(28, 28, 29) 20%, #70b0cf);
+    }
+    .tit{
+        top: 10%;
+        margin-left: 19%;
+    }
+    .icon{
+        margin-left: 15%;
+        margin-top: 26%;
+    }
+    .usu{
+        position: absolute;
+        margin-bottom:-25%;
+        margin-left: -4%;
+    }
+    .hij{
+        width: 65%;
+        margin-bottom:1% ;
+    }
+    .pad{
+        position: absolute;
+        width: 100vh;
+        height: 100%;
+    }
+    .opciones,.boton{
+        left: 10%;
+    }
+    .scrol{
+        margin-top: 80%;
+        height: 70%;
+        margin-bottom: 12%;
+    }
+    .list{
+        margin-left: -35%;
+        height: 60%;
+        width: 95%;
+    }
+}

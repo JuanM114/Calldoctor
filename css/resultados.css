@@ -1,0 +1,101 @@
+.pac{
+    margin-top: 6%;
+}
+.ina{
+    margin-left: 4%;
+}
+.icono{
+    width: 120px;
+    height:117px;
+    margin-top: 38%;
+    margin-left: 26%;
+}
+.doc{
+    margin-top: 50%;
+}
+.busq{
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 32%;
+    border-radius: 20px;
+    height: 5.5%;
+}
+.tabla{
+    position: absolute;
+
+    background-color: aliceblue;
+    border: 2px solid black;
+    height: max-content;
+}
+th{
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.area{
+    position: absolute;
+    margin-top: 13%;
+    margin-left: 32%;
+    width: 63%;
+    height: 60%;
+    overflow: scroll;
+}
+
+.ult{
+    border-right: 0px;
+    width: 240px;
+    font-size: 13px;
+}
+td{
+    border-right: 2px solid black;
+}
+th,td{
+    padding: 10px;
+}
+.opci{
+    padding-right:2%;
+    color: rgb(16, 150, 184);
+}
+@media screen and (max-width:600px){
+    .img{
+        width: 120%;
+        height: 110vh;
+    }
+    table tr{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid grey;
+        padding: 1em;
+    }
+    .logo{
+        width: 50%;
+        height: 16%;
+        margin: 3%;
+    }
+    .area{
+        margin-top: 20%;
+        height: 80%;
+    }
+    .lateral{
+        position: absolute;
+        width: 90%;
+        height: 100%;
+        background-color: aliceblue;
+        opacity: 0.9;
+        z-index: 1;
+        left: -70%;
+        flex-direction: column;
+    }
+    .menu{
+        display: block;
+        position: absolute;
+        top: 15%;
+        left: 84%;
+    }
+
+    .admin{
+        display: flex;
+        margin-left: 42%;
+        margin-top: 350px;
+        font-size: 20px;
+    }
+}    

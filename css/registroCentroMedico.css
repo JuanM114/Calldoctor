@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background-color: #222222;
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar a img{
+    width:150px; 
+    height:65px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.navbar{
+    position: fixed;
+    line-height: 60px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 20px 20px 0px;
+
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background:#ff0800;
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    transition: 0.5s;
+}
+.navbar.white{
+    z-index: 1000;
+    background: linear-gradient(rgba(255, 255, 255, 0.85),rgba(255, 255, 255, 0.85));
+}
+.navbar .letraNegra{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+.navbar ul li:hover:after{
+    width: 100%;
+}
+.principal{
+    width: 700px;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+.principal h1{
+    font-weight: bold;
+    font-size:45px;
+}
+.principal h4{
+    margin-top: -10px;
+    font-size: 30px;
+    color: rgb(228, 228, 228);
+}
+.principal p {
+    margin-top: -10px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+.Datos div{
+    width: 40%;
+    padding: 40px;
+    color:rgb(255, 255, 255);
+    margin-left: 62%;
+    margin-top: -15%;
+}
+.Datos h2{    
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+}
+.Datos p{
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+ .Datos img{
+    float: right;
+    width: 50%;
+    padding-right: 20px;  
+}
+.login-form{
+    max-width: 500px;
+    position: relative;
+    top:20px;
+    padding: 4%;
+}   
+.login-idiomas, .login-number,  .selec{
+    background-color: transparent;
+    transition: background-color 1.4s;
+    border: 2px solid #009b67;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    color: rgb(126, 125, 125);
+    display: block;
+    margin: 1.5rem;
+    padding: .2rem;
+    transition: 250ms ease-in;
+    width: calc(100% - 0.1rem);
+    font-size: 18px;
+}
+.certificadoP,.fotoP{
+    border: 2px solid #009b67;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    color: rgb(126, 125, 125);
+    margin-left: 1.5rem ;
+    padding: .2rem;
+    font-size: 17px;
+}
+.login-username:hover, .login-password:hover, .login-number:hover, .login-nombre:hover, .login-apellido:hover,  .selec:hover{
+    background-color:transparent;
+}
+.checkBox{
+    width: 450px;
+    padding-left: 30px;
+    color: rgb(255, 255, 255);
+}
+.checkBox input{
+    margin-top: 20px;
+}
+.btnCrearCuenta{
+    width: 200px;
+    padding: 10px ;
+    text-align: center;
+    margin: 20px 0px 20px 110px;
+    font-weight: bold;
+    border: 2px solid #009b67;
+    border-left: transparent;
+    border-right: transparent;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+}
